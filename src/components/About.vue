@@ -23,7 +23,7 @@
 section {
   background-color: white;
   border-radius: 69px;
-  margin-top: 16px;
+  margin: 16px 0 120px;
   padding: 48px;
   position: relative;
 }

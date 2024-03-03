@@ -2,6 +2,7 @@
 import Intro from "./Intro.vue";
 import MainAdv from "./MainAdv.vue";
 import About from "./About.vue";
+import Experience from "./Experience.vue";
 </script>
 
 <template>
@@ -9,5 +10,17 @@ import About from "./About.vue";
     <Intro />
     <MainAdv />
     <About />
+    <h2 class="exp-title">Опыт работы</h2>
+    <Experience />
   </main>
 </template>
+
+<style scoped>
+.exp-title {
+  font-family: "Days", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: 0 0 60px;
+}
+</style>
