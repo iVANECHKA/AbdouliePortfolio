@@ -11,14 +11,15 @@ import Philosophy from "./Philosophy.vue";
     <Intro />
     <MainAdv />
     <About />
-    <h2 class="exp-title">Опыт работы</h2>
+    <h2 class="title">Опыт работы</h2>
     <Experience />
+    <h2 class="title">Моя философия</h2>
     <Philosophy />
   </main>
 </template>
 
 <style scoped>
-.exp-title {
+.title {
   font-family: "Days", sans-serif;
   font-weight: 400;
   font-size: 60px;
